@@ -17,6 +17,7 @@ const path = require('path')
 
 class DB {
     constructor (STORE_PATH) {
+        console.log("database store path: "+STORE_PATH);
         const adapter = new FileSync(path.join(STORE_PATH, '/data.json'))
 
         this.db = Datastore(adapter)
