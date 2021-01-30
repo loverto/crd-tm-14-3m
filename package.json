@@ -1,6 +1,6 @@
 {
   "name": "crd-tm-14-3m",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CRD贴膜14寸三面通用排版工具",
   "main": "dist/main/main.js",
   "scripts": {
